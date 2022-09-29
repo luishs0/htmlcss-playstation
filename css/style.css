@@ -49,56 +49,31 @@ img {
 /* banner */
 .banner {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center top;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center top;
     color: white;
-
-    height: 82vh;
 }
 
-.ms_container-banner {
-    height: 100%;
-    width: 100%;
-    position: relative;
+.ms_card-banner {
+    padding: 20rem 0 1rem 0;
 }
 
-.ms_banner-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.ms_returnal .banner-logo {
-    max-width: 100%;
-    width: 40%;
-}
-
-.banner .card {
-    background-color: transparent;
-    border: none;
-}
-
-.banner .card-body {
-    padding: 0;
+.ms_card-banner-logo {
+    width: 50%;
 }
 
 .ms_btn-banner {
     background-color: #cd3d10;
-    border: none;
-}
-
-.banner .card {
-    padding: 0 1rem;
-}
-
-.ms_returnal {
-    padding-left: 1rem;
+    color: white;
 }
 
 @media screen and (min-width: 992px) {
-    .ms_returnal .banner-logo {
+    .ms_card-banner-logo {
         width: 25%;
+    }
+
+    .ms_card-banner {
+        width: 45%;
     }
 }
 /* /banner */
@@ -111,31 +86,29 @@ img {
 /* /ps5 */
 
 /* takes two */
-.banner-2 {
+.takes-two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center top;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center top;
     color: white;
-
-    height: 70vh;
 }
 
-.banner-2 .card {
-    background-color: transparent;
-    border: 0;
+.ms_card-takes {
+    padding: 1rem 0 1rem 0;
 }
 
-.banner-2 .ms_banner-content {
-    height: 90%;
+.ms_card-takes-logo {
+    width: 50%;
 }
 
-.takes {
-    width: 20%;
+.ms_btn-takes {
+    background-color: #cd3d10;
+    color: white;
 }
 
-@media screen and (max-width: 476px) {
-    .takes {
-        width: 35%;
+@media screen and (min-width: 992px) {
+
+    .ms_card-takes {
+        width: 40%;
     }
 }
