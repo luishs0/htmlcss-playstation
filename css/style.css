@@ -69,7 +69,7 @@ img {
     left: 0;
 }
 
-.ms_returnal img {
+.ms_returnal .banner-logo {
     max-width: 100%;
     width: 40%;
 }
@@ -97,8 +97,45 @@ img {
 }
 
 @media screen and (min-width: 992px) {
-    .ms_returnal img {
+    .ms_returnal .banner-logo {
         width: 25%;
     }
 }
 /* /banner */
+
+/* ps5 */
+
+.ms_op6 {
+    opacity: .6;
+}
+/* /ps5 */
+
+/* takes two */
+.banner-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: 70vh;
+}
+
+.banner-2 .card {
+    background-color: transparent;
+    border: 0;
+}
+
+.banner-2 .ms_banner-content {
+    height: 90%;
+}
+
+.takes {
+    width: 20%;
+}
+
+@media screen and (max-width: 476px) {
+    .takes {
+        width: 35%;
+    }
+}
