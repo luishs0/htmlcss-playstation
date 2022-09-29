@@ -119,3 +119,13 @@ img {
     background-color: #1f1f1f;
     color: white;
 }
+/* /uscite */
+
+/* ps4 */
+@media screen and (min-width: 992px) {
+    .ms_ps4-tittolo {
+        width: 70%;
+        max-width: 670px;
+        margin: auto;
+    }
+}
