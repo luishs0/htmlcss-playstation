@@ -1,0 +1,39 @@
+/* UTILITY */
+.btn {
+    border-radius: 20px;
+}
+
+
+/* HEADER */
+/* header-top */
+.ms_header-top {
+    background-color: black;
+    height: 25px;
+    width: 100%;
+}
+
+.ms_box-sony {
+    height: 100%;
+}
+
+.ms_header-top img {
+    max-height: 100%;
+}
+
+.ms_p-2 {
+    padding: .3rem;
+}
+/* /header-top */
+
+/* header-bottom */
+.nav-link {
+    color: black;
+}
+
+.btn-dark {
+    color: white;
+}
+
+.ms_search {
+    height: 30px;
+}
