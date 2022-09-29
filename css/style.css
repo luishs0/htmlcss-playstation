@@ -67,10 +67,35 @@
 
 .ms_returnal img {
     max-width: 100%;
-    width: 60%;
+    width: 40%;
 }
 
 .banner .card {
     background-color: transparent;
     border: none;
+}
+
+.banner .card-body {
+    padding: 0;
+}
+
+.ms_btn-banner {
+    background-color: #cd3d10;
+    border: none;
+}
+
+@media screen and (max-width: 576px) {
+    .banner .card {
+        padding: 0 1rem;
+    }
+
+    .ms_returnal {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ms_returnal img {
+        width: 25%;
+    }
 }
