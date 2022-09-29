@@ -3,6 +3,10 @@
     border-radius: 20px;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 /* HEADER */
 /* header-top */
@@ -59,7 +63,7 @@
     position: relative;
 }
 
-.ms_banner-container {
+.ms_banner-content {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -84,14 +88,12 @@
     border: none;
 }
 
-@media screen and (max-width: 576px) {
-    .banner .card {
-        padding: 0 1rem;
-    }
+.banner .card {
+    padding: 0 1rem;
+}
 
-    .ms_returnal {
-        padding-left: 1rem;
-    }
+.ms_returnal {
+    padding-left: 1rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -99,3 +101,4 @@
         width: 25%;
     }
 }
+/* /banner */
