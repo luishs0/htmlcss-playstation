@@ -37,3 +37,40 @@
 .ms_search {
     height: 30px;
 }
+/* /header-bottom */
+/* /HEADER */
+
+
+/* MAIN */
+/* banner */
+.banner {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+
+    height: 82vh;
+}
+
+.ms_container-banner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.ms_banner-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.ms_returnal img {
+    max-width: 100%;
+    width: 60%;
+}
+
+.banner .card {
+    background-color: transparent;
+    border: none;
+}
