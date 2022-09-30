@@ -48,6 +48,17 @@ header {
 .ms_search {
     height: 30px;
 }
+
+header .btn {
+    background-color: black;
+}
+
+header .btn:first-child:hover {
+    background-color: black;
+    border: 1px double black;
+    outline: 2px double black;
+}
+
 /* /header-bottom */
 /* /HEADER */
 
@@ -77,6 +88,13 @@ main {
     color: white;
 }
 
+.banner .btn:first-child:hover, 
+:not(.btn-check)+.btn:hover {
+    background-color: #cd3d10;
+    border: 1px double #cd3d10;
+    outline: 2px double #cd3d10;
+}
+
 @media screen and (min-width: 992px) {
     .ms_card-banner-logo {
         width: 25%;
@@ -84,6 +102,11 @@ main {
 
     .ms_card-banner {
         width: 45%;
+    }
+
+    .ms_card-up:hover {
+        transform: translate(0, -17%);
+        transition: .5s;
     }
 }
 /* /banner */
