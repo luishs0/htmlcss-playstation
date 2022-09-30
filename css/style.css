@@ -9,6 +9,13 @@ img {
 
 
 /* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
 /* header-top */
 .ms_header-top {
     background-color: black;
@@ -46,6 +53,9 @@ img {
 
 
 /* MAIN */
+main {
+    padding-top: calc(76px + 25px);
+}
 /* banner */
 .banner {
     background-image: url(../img/jumbo-bg.png);
@@ -78,10 +88,23 @@ img {
 }
 /* /banner */
 
+.ms_img-border {
+    border: 3px double #0070d1;
+    outline: 1px double #0070d1;
+}
+
 /* ps5 */
+.ms_no-limits {
+    color: #0070d1;
+    font-size: .8rem;
+}
 
 .ms_op6 {
     opacity: .6;
+}
+
+.ms_bb {
+    border-bottom: 2px solid #0070d1;
 }
 /* /ps5 */
 
@@ -140,6 +163,11 @@ img {
     max-width: 350px;
 }
 
+.ms_btn-plus {
+    background-color: #d9dadd;
+    color: #0070d1;
+}
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .ms_plus .col-12 img {
         margin: -1px 0 -1px;
@@ -156,6 +184,11 @@ img {
 .ms_now .col-12 img {
     width: 70%;
     max-width: 350px;
+}
+
+.ms_btn-now {
+    background-color: #f5f5f5;
+    color: #0070d1;
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {

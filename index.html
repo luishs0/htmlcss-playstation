@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play Station</title>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -36,40 +39,47 @@
                   <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Giochi
+                              <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Hardware
+                              <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Servizi
+                              <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Novitá
+                              <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Fa aquisti
+                              <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Supporto
+                              <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                     </ul>
                     <ul class="navbar-nav mb-2 mb-lg-0 d-flex align-items-center justify-content-end">
                         <li class="nav-item dropdown me-2">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 My Playstation
+                                <span><i class="fa-solid fa-chevron-down"></i></span>
                             </a>
                         </li>
                         <li class="nav-item me-4">
@@ -120,7 +130,7 @@
 
 
         <!-- section - cards 1 -->
-        <section class="pb-5 pt-4">
+        <section class="pb-5 pt-5">
 
             <div class="container">
 
@@ -128,7 +138,7 @@
 
                     <div class="col-6 col-sm-4 col-lg-2 mt-lg-4">
                         <a href="">
-                            <img class="rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            <img class="rounded ms_img-border" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                         </a>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2 mt-lg-4">
@@ -166,11 +176,12 @@
 
 
         <!-- ps5 -->
-        <section>
+        <section class="pb-2">
 
             <div class="container">
 
                 <div class="text-center">
+                    <h4 class="ms_no-limits">PLAY HAS NO LIMITS</h4>
                     <h2>Ecco la PlayStation 5</h2>
                     <p class="text-secondary">Tuffati in nuove possibilità di gioco completamente insaspetatte</p>
                 </div>
@@ -189,9 +200,9 @@
 
                 </div>
 
-                <div class="ms_ps5-grid row-cols-3 row-cols-md-5 row ">
+                <div class="ms_ps5-grid row-cols-3 row-cols-md-5 row g-sm-5">
 
-                    <div class="ms_ps5-card d-flex flex-column justify-content-center">
+                    <div class="ms_ps5-card d-flex flex-column justify-content-center ms_bb">
                         <img src="img/playstation-5-thumb.png" alt="">
                         <p class="d-none d-md-inline-block text-center">Console PS5</p>
                     </div>
@@ -472,7 +483,7 @@
 
                         <img class="ms_title-plus" src="img/ps-plus-logo.png" alt="">
                         <p class="mb-4 mt-3">Migliora la tua esperienza PlayStation con l'accesso a multiggiocatore online, giochi mensili, sconti esclusivi e altro ancora. </p>
-                        <a class="btn btn-secondary" href="">Esplora PlayStation Plus</a>
+                        <a class="btn ms_btn-plus" href="">Esplora PlayStation Plus</a>
 
                     </div>
 
@@ -527,7 +538,7 @@
 
                         <img class="ms_now-plus" src="img/ps-now-logo-two-column.png" alt="">
                         <p class="mb-4 mt-3">Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Wimdows, con nuovi titoli aggiunti ogni mese.</p>
-                        <a class="btn btn-secondary" href="">Esplora PlayStation Plus</a>
+                        <a class="btn ms_btn-now" href="">Esplora PlayStation Now</a>
 
                     </div>
 
@@ -587,7 +598,7 @@
             <div class="row g-5">
 
                 <div class="ms_footer-logo col-12 col-lg-6">
-                    <img class="ms_footer-logo-ps mb-3" src="img/play_logo.svg" alt="">
+                    <img class="ms_footer-logo-ps mb-3" src="img/play_logo_white.svg" alt="">
                     <br>
                     <img class="ms_languaje" src="img/language-globe.svg" alt="">
                     <span class="ms_country">Country/Region: Italy</span>
