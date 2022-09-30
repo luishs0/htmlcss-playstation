@@ -138,6 +138,28 @@ img {
 .ms_plus .col-12 img {
     width: 70%;
     max-width: 350px;
-    margin-bottom: 1rem;
+}
 
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .ms_plus .col-12 img {
+        margin: -1px 0 -1px;
+    }
+}
+/* /ps plus */
+
+/* ps now */
+.ms_now {
+    background-color: #161c3b;
+    color: white;
+}
+
+.ms_now .col-12 img {
+    width: 70%;
+    max-width: 350px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .ms_now .ms_img-ps {
+        margin: -1px 0 -1px;
+    }
 }
