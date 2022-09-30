@@ -89,7 +89,9 @@ main {
 }
 
 .banner .btn:first-child:hover, 
-:not(.btn-check)+.btn:hover {
+.banner :not(.btn-check)+.btn:hover,
+.takes-two .btn:first-child:hover,
+.takes-two :not(.btn-check)+.btn:hover {
     background-color: #cd3d10;
     border: 1px double #cd3d10;
     outline: 2px double #cd3d10;
