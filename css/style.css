@@ -173,3 +173,35 @@ img {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
 }
+/* /social media */
+/* /MAIN */
+
+/* FOOTER */
+footer {
+    background-color: #00439c;
+    color: white;
+    padding-top: 5rem;
+}
+
+.ms_footer-logo-ps {
+    width: 120px;
+}
+
+.ms_languaje {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.ms_country {
+    vertical-align: middle;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.ms_sie {
+    width: 150px;
+}
+
+
