@@ -129,3 +129,15 @@ img {
         margin: auto;
     }
 }
+
+/* ps plus */
+.ms_plus {
+    background-color: #bebcbb;
+}
+
+.ms_plus .col-12 img {
+    width: 70%;
+    max-width: 350px;
+    margin-bottom: 1rem;
+
+}
